@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B64E50E1E16308500310210 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = 5B64E50D1E16308500310210 /* resource */; };
 		5BF9B5A81E13FC8A00DAEF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9B5A71E13FC8A00DAEF22 /* AppDelegate.swift */; };
 		5BF9B5AA1E13FC8A00DAEF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF9B5A91E13FC8A00DAEF22 /* ViewController.swift */; };
 		5BF9B5AD1E13FC8A00DAEF22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BF9B5AB1E13FC8A00DAEF22 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B64E50D1E16308500310210 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
 		5BF9B5A41E13FC8A00DAEF22 /* SHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF9B5A71E13FC8A00DAEF22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BF9B5A91E13FC8A00DAEF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		5BF9B5A61E13FC8A00DAEF22 /* SHA */ = {
 			isa = PBXGroup;
 			children = (
+				5B64E50D1E16308500310210 /* resource */,
 				5BF9B5A71E13FC8A00DAEF22 /* AppDelegate.swift */,
 				5BF9B5A91E13FC8A00DAEF22 /* ViewController.swift */,
 				5BF9B5AB1E13FC8A00DAEF22 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B64E50E1E16308500310210 /* resource in Resources */,
 				5BF9B5B21E13FC8A00DAEF22 /* LaunchScreen.storyboard in Resources */,
 				5BF9B5AF1E13FC8A00DAEF22 /* Assets.xcassets in Resources */,
 				5BF9B5AD1E13FC8A00DAEF22 /* Main.storyboard in Resources */,
@@ -514,6 +518,7 @@
 				5BF9B5CE1E13FC8B00DAEF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BF9B5CF1E13FC8B00DAEF22 /* Build configuration list for PBXNativeTarget "SHATests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				5BF9B5D11E13FC8B00DAEF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BF9B5D21E13FC8B00DAEF22 /* Build configuration list for PBXNativeTarget "SHAUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				5BF9B5D41E13FC8B00DAEF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
